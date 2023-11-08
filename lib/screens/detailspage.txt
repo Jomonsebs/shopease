@@ -1,0 +1,45 @@
+  // onTap: () {
+            //   print("price ==" + double.parse(price).toString());
+
+            //   var existingItemCart = context
+            //       .read<Cart>()
+            //       .getItems
+            //       .firstWhereOrNull((element) => element.id == id);
+            //   if (existingItemCart != null) {
+            //     ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+            //       duration: Duration(seconds: 3),
+            //       behavior: SnackBarBehavior.floating,
+            //       padding: EdgeInsets.all(15.0),
+            //       shape: RoundedRectangleBorder(
+            //           borderRadius: BorderRadius.all(Radius.circular(10))),
+            //       content: Text(
+            //         "This item already in cart",
+            //         textAlign: TextAlign.center,
+            //         style: TextStyle(
+            //           fontSize: 18,
+            //           color: Colors.white,
+            //         ),
+            //       ),
+            //     ));
+            //   } else {
+            //     context
+            //         .read<Cart>()
+            //         .addItem(id, name, double.parse(price), 1, image);
+
+            //     ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+            //       duration: Duration(seconds: 3),
+            //       behavior: SnackBarBehavior.floating,
+            //       padding: EdgeInsets.all(15.0),
+            //       shape: RoundedRectangleBorder(
+            //           borderRadius: BorderRadius.all(Radius.circular(10))),
+            //       content: Text(
+            //         "Added to cart !!!",
+            //         textAlign: TextAlign.center,
+            //         style: TextStyle(
+            //           fontSize: 18,
+            //           color: Colors.white,
+            //         ),
+            //       ),
+            //     ));
+            //   }
+            // },
